@@ -1,0 +1,12 @@
+#II = й
+
+import sys
+
+def check_and_write(characters):
+    if 'й' in characters:
+        a0 = 'ю'
+        sys.path.append('/home/kirill/file_encryption_algorithms/')
+        import write_string
+
+        write_string.write(a0)
+        
